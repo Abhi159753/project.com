@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+}
+body{
+    background: url('lap.jpeg') no-repeat;
+    background-size: cover;
+    color:whitesmoke;
+}
+.registration-form{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    width: 400px;
+}
+.registration-form h1{
+    font-size:30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin:40px 0;
+}
+.registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border-radius:15px;
+    border-style: ridge;
+    border-color: black
+    outline:none;
+    border-width: 5px;
+}
+.registration-form button{
+    font: size 18px;
+    font-weight: bold;
+    margin:30px 0;
+    padding: 10px 15px;
+    width:50%;
+    border-radius: 15px;
+    border-color: black;
+    background-color: whitesmoke;
+}
+.registration-form button:hover{
+    color: blue;
+}
+..registration-form.email-icon{
+    i;
+}
